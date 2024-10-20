@@ -1,0 +1,29 @@
+# Игнорировать системные директории Windows
+AppData/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+OneDrive/
+NTUSER.DAT
+NTUSER.DAT*
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+# Игнорировать директории окружений и кэшей
+.cache/
+.config/
+.local/
+.vscode/
+node_modules/
+
+# Другие временные файлы и конфигурации
+*.log
+.DS_Store
